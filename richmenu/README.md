@@ -19,6 +19,7 @@ Steps to change customize richmenu
 
 Create Liff Register View
 
+
 #Line
 get list richmenus
 GET https://api.line.me/v2/bot/richmenu/list

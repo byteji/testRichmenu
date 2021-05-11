@@ -1,8 +1,11 @@
-{
-    "size":{
+{   
+    
+    "size":{ 
         "width":2500,
         "height":1686
-    },
+    },  
+ 
+
        "selected":true,
        "name":"Default Richmenu",
        "chatBarText":"Rich Menu",
@@ -16,7 +19,7 @@
              },
                 "action":{
                     "type":"uri",
-                    "uri":"https://liff.line.me/1655948543-k6GLx8KN"
+                    "uri":"https://liff.line.me/1655970813-BbLj9d3v"
                 }
            },           
            {

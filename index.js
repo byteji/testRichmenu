@@ -1,15 +1,16 @@
 const btn = document.getElementById('btn');
-const liffId = '';
+const liffId = '1655970813-BbLj9d3v';
 let userId = '';
 
 function main(){
     // 1.liff init
-    // 2.get profile
+    
     liff.init({liffId: liffId});
-    liff.ready.then(() => {
-        if(!liff.isLoggedIn()){
+    liff.ready.then(() => { // จะทำงานเมื่อ init เสร็จ
+        if(!liff.isLoggedIn()){ //  if เช้คล้อคอินไหม
             liff.login();
-        }        
+        }      
+            // 2.get profile เก็บค่าuserId
         liff.getProfile().then((profile) => {            
             userId = profile.userId;
             console.log(profile);
